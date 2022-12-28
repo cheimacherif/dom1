@@ -1,0 +1,44 @@
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+    margin: auto;
+    background-color: bisque;
+    }
+
+    .shoes{
+        background-color: #00ccb1;
+    }
+    .trousers{
+        background-color: #1a4b83;
+    }
+    .t-shirt{
+        background-color: #3e83e0;
+    }
+    .cap{
+        background-color: #1b2735;
+    }
+    .card{
+        height: 300px;
+        border-radius: 20px;
+        padding: 20px;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+
+
+.count{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.price{
+    text-align: center;
+    margin-left: 80px;
+    background-color: bisque;
+}
