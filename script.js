@@ -37,7 +37,7 @@ for (let i = 0; i < minBtn.length; i++) {
             if(+(qte[i].value) > 0) {
             +(qte[i].value)--
             }
-            tot.value = +(tot.value) -l (+price[i].value)
+            tot.value = +(tot.value) - (+price[i].value)
         })
     
     
